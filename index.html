@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>personal portfolio</title>
+
+    <style>
+      body {
+        background-color: rgb(7, 7, 97);
+        color: white;
+      }
+
+      * {
+        margin: 0%;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      nav {
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(20, 20, 105);
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(138, 138, 223);
+        font-size: 1.1rem;
+      }
+
+      .right ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+      }
+
+      .right ul li {
+        margin: 25px;
+        list-style: none;
+      }
+      .right ul li:hover {
+        border: 2px solid white;
+      }
+
+      .left {
+        font-size: 2rem;
+      }
+      .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 30px 0;
+      }
+      .firstsection div {
+        width: 40%;
+      }
+      .leftsection {
+        font-size: 2rem;
+        margin: 30px 0;
+        font-weight: 300;
+        width: 400px;
+      }
+      .leftsection .first-bt {
+        background-color: rgba(0, 0, 213, 0.438);
+        color: azure;
+        padding: 5px;
+        border: 3px solid white;
+        border-radius: 7px;
+        cursor: pointer;
+      }
+      .leftsection .secand-bt {
+        background-color: rgba(0, 0, 213, 0.438);
+        color: azure;
+        padding: 5px;
+        border: 3px solid white;
+        border-radius: 7px;
+        cursor: pointer;
+      }
+      .rightsection img {
+        width: 70%;
+      }
+      .purple {
+        color: blueviolet;
+      }
+      #element {
+        color: rgb(136, 136, 255);
+      }
+      .secondsection {
+        max-width: 80vw;
+        margin: auto;
+      }
+      hr {
+        height: 3px;
+        border: 0px;
+        background-color: #9c97f2;
+        margin-bottom: 21px;
+      }
+
+      .grey {
+        color: grey;
+      }
+      .secondsection .box {
+        background-color: white;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondsection .vertical {
+        height: 95px;
+        width: 1px;
+        background-color: white;
+        margin: 0px 100px;
+        display: flex;
+      }
+      .img {
+        height: 20px;
+        width: 20px;
+        position: relative;
+        top: -20px;
+        background-size: cover;
+      }
+      .vertical-title {
+        position: relative;
+        top: 90px;
+        right: 40px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 120px;
+        right: 81px;
+        width: 200px;
+        font-size: 10px;
+        height: 25px;
+        color: grey;
+        display: flex;
+        justify-content: center;
+      }
+
+      footer {
+        position: relative;
+        background-color: #1b065b;
+
+        top: 200px;
+      }
+      .flex {
+        padding: 20px 80px;
+        display: flex;
+        justify-content: space-evenly;
+        text-decoration: none;
+      }
+      footer ul li {
+        list-style: none;
+        margin: 15px;
+        font-weight: 200;
+      }
+      .footer-sec {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: aqua;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="left">Personal portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href=""> Home</a></li>
+            <li><a href="">Project</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Work</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, my name is <span class="purple"> Ujjwal</span>
+          <div>I am passinate</div>
+          <div>Web Developer</div>
+          <span id="element"></span>
+          <div class="buttoms">
+            <button class="first-bt">Download Resume</button>
+            <button class="secand-bt">Visit Github</button>
+          </div>
+        </div>
+
+        <div class="rightsection">
+          <img src="developer.png" alt="" />
+        </div>
+      </section>
+
+      <hr />
+      <section class="secondsection">
+        <span class="grey"> What i done so for</span>
+        <h1>work experience</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="img" src="html5-logo-31813.png" alt="" />
+            <div class="vertical-title">Html Developer</div>
+
+            <div class="vertical-desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum
+              voluptates rem d.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="img" src="html5-logo-31813.png" alt="" />
+            <div class="vertical-title">Html Developer</div>
+
+            <div class="vertical-desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum
+              voluptates rem d.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="img" src="html5-logo-31813.png" alt="" />
+            <div class="vertical-title">Html Developer</div>
+
+            <div class="vertical-desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum
+              voluptates rem d.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="img" src="html5-logo-31813.png" alt="" />
+            <div class="vertical-title">Html Developer</div>
+
+            <div class="vertical-desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum
+              voluptates rem d.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="img" src="html5-logo-31813.png" alt="" />
+            <div class="vertical-title">Html Developer</div>
+
+            <div class="vertical-desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum
+              voluptates rem d.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="flex">
+        <div class="footer-one">
+          <h3>Developer Portfolio</h3>
+        </div>
+        <div class="footer-two">
+          <ul>
+            <li>Home</li>
+            <li>Service</li>
+            <li>Work</li>
+          </ul>
+        </div>
+        <div class="footer-thrre">
+          <ul>
+            <li>Home</li>
+            <li>Service</li>
+            <li>Work</li>
+          </ul>
+        </div>
+
+        <div class="footer-four">
+          <ul>
+            <li>Home</li>
+            <li>Service</li>
+            <li>Work</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-sec">Ujjwal Mishra</div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["web developer", "graphics designer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
